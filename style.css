@@ -1,9 +1,26 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background: linear-gradient(45deg, lightgreen, lightgray, lightgreen);
+}
+
 main {
     width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgba(105, 105, 105, 0.3);
+    border-radius: 1.5%;
+    max-width: 600px;
+}
+
+#header {
+    width: 80%;
+    margin: auto;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: 2.5vw;
 }
 
 #survey-form {
@@ -14,6 +31,13 @@ main {
     margin-bottom: 4%;
 }
 
-.formItem {
-    margin-top: 3%;
+.formLabel {
+    margin: 4% 4% 1% 4%;
+}
+
+#submit {
+    background-color: lightgreen;
+    padding: 2%;
+    font-size: 1.5vw;
+    font-weight: bolder;
 }
